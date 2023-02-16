@@ -7,3 +7,4 @@ Document shows the various configurations needed to set up in a Salesforce Org t
 3) Create custom fields for NASA Viewed Images to hold data pulled from NASA APOD API
 4) Edit Page Layout of Custom Object as desired
 5) Add API URL to CSP Trusted Sites
+6) Schedule Apex Code
