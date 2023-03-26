@@ -38,3 +38,8 @@ Idea's I was juggling around
 2) Fix Video's not auto playing (currently have to use link to access)
 3) Add logic to allow user's to enter different date formats
 4) Add special keyword to allow user to save every image/video to date in Custom Object
+
+## Helpful Resources
+Salesforce has its own documentation covering everything from Apex, Lightning Components, API's, and more. This was an invaluable resource in debugging and generating the code for this project. The documentation can be found at <https://developer.salesforce.com/docs/?pagenum=1>
+
+Other than writing code, this project also requires knowledge of the Salesforce ecosystem in general so that configuration changes inside the organization can be made. The best place to learn how to work in the Salesforce ecosystem would be via Salesforce's own learning platform, Trailhead <https://trailhead.salesforce.com/>
