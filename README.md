@@ -9,7 +9,7 @@ My project is a Salesforce Lightning Web Component (LWC) which utilizes an api f
 #### Files/Folders
 Org Configuration - Contains a word document with instructions on setting up the Salesforce instance. This is not all inclusive, and you may need to make other configuration changes which I did not.
 
-Screenshots
+Screenshots  
 Lightning Web Component allowing user to enter date
 ![LWC](https://github.com/jak64950/CS50x-Final-Project-Salesforce-LWC/blob/main/Screenshots/NASA_Lightning_Page_Image_Tab.png?raw=true)
 
