@@ -21,7 +21,6 @@ All lookups stored in a custom object
 
 Data stored in a custom object
 ![Custom Object Data](https://github.com/jak64950/CS50x-Final-Project-Salesforce-LWC/blob/main/Screenshots/Custom_Object_Data.png?raw=true)
-
   
 classes - Contains all the Apex classes used to create the functioning LWC (uploaded directly from VSCode).
 1) NASAImageDataController will make a callout to grab the info from the NASA api and store it into a custom object
