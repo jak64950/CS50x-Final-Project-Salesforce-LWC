@@ -1,6 +1,6 @@
 # PICTURE OF THE DAY
 
-## Video Demo: WIP <URL HERE>
+## Video Demo: <https://youtu.be/7v_doGKIb_o>
   
 ## Description:
 #### What the project is
