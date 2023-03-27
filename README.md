@@ -43,3 +43,8 @@ Idea's I was juggling around
 Salesforce has its own documentation covering everything from Apex, Lightning Components, API's, and more. This was an invaluable resource in debugging and generating the code for this project. The documentation can be found at <https://developer.salesforce.com/docs/?pagenum=1>
 
 Other than writing code, this project also requires knowledge of the Salesforce ecosystem in general so that configuration changes inside the organization can be made. The best place to learn how to work in the Salesforce ecosystem would be via Salesforce's own learning platform, Trailhead <https://trailhead.salesforce.com/>
+
+## Biggest Issues
+1. There are some nuances with Apex/javascript that I was unfamiliar with which added a few days to the project. In my NASAImageDataController apex file, I initially had `cacheable=true` which is usually recommended, but must be false when upserting the data. Consequently, since it was set to false, the javascript had to call the Apex function via a connectedCallback instead of using wireAdapter.
+2. You cannot schedule a callout directly, so I had to create a schedule helper file which would make the callout. This is according to the Salesforce developer documentation anyways, but I still don't have it working. 
+3. I cannot get the html to display videos pulled from the API. Not sure if it is bad code, or a permission issue within Salesforce blocking it.
